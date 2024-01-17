@@ -1,10 +1,12 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-
+import { useState } from "react";
+import Main from "./Main";
 import Header from "./Header";
 import Main from "./Main";
 import top from "./images/bg-top.svg"
 import bottom from "./images/bg-bottom.svg"
 function App() {
+  const [Monthly, setMonthly] = useState(true);
   return (
     <div className="App bg-no-repeat min-h-[100vh] ">
       <img className=" -z-10 absolute -top-[50px] -right-[200px] md:right-0  " src={top} alt="" />
