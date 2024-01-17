@@ -1,14 +1,19 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
+
 import { useState } from "react";
 import Main from "./Main";
 import Header from "./Header";
+import top from "./images/bg-top.svg"
+import bottom from "./images/bg-bottom.svg"
 function App() {
   const [Monthly, setMonthly] = useState(true);
   return (
-    <div className="App">
+    <div className="App bg-no-repeat min-h-[100vh] ">
+      <img className=" -z-10 absolute -top-[50px] -right-[200px] md:right-0  " src={top} alt="" />
+      <img className=" -z-10 absolute w-0 md:w-auto bottom-0 left-0 " src={bottom} alt="" />
       <Header setMonthly={setMonthly} Monthly={Monthly} />
       <Main Monthly={Monthly} />
-      <div class="attribution">
+      <div class="w-[90%] text-[#a3a8f0] text-center mt-5 mx-auto">
         Challenge by{" "}
         <a
           href="https://www.frontendmentor.io?ref=challenge"
@@ -17,7 +22,7 @@ function App() {
         >
           Frontend Mentor
         </a>
-        . Coded by <a href="#">Your Name Here</a>.
+        . Coded by <a href="#">Mostafa & Ahmed</a>.
       </div>
     </div>
   );

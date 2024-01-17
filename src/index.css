@@ -5,6 +5,7 @@
 input:checked + span {
   @apply transition-all -translate-x-5;
 }
+
 label {
   @apply cursor-pointer transition-all  opacity-50 w-12 h-6 pr-1 rounded-3xl flex items-center bg-gradient-to-r from-[#a3a8f0] to-[#696fdd];
 }
@@ -17,7 +18,7 @@ label:has(input:checked) {
 /* end header */
 /* body */
 article section {
-  @apply shadow-md rounded-md font-bold bg-white p-6 w-11/12 text-center md:w-[30%] max-w-[300px];
+  @apply shadow-2xl rounded-md font-bold bg-white p-6 w-11/12 text-center md:w-[30%] max-w-[300px];
 }
 article section > span {
   @apply text-[#6d708d];
