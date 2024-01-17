@@ -1,16 +1,14 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 
-import Main from "./main";
+import Header from "./Header";
+import Main from "./Main";
 
 function App() {
   return (
     <div className="App">
       <Main />
+      <Header />
       {/* 
-      Our Pricing
-      Annually
-      Monthly
-
       Basic
       &dollar;19.99
       &dollar;199.99

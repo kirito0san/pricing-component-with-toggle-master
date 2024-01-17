@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* header */
+input:checked + span {
+  @apply transition-all -translate-x-5;
+}
+label {
+  @apply cursor-pointer transition-all  opacity-50 w-12 h-6 pr-1 rounded-3xl flex items-center bg-gradient-to-r from-[#a3a8f0] to-[#696fdd];
+}
+label:has(input:checked) {
+  @apply !bg-[#494c5f] !opacity-100;
+}
+#toggle + span {
+  @apply w-5 transition-all h-5 block rounded-full  border bg-white;
+}
+/* end header */
