@@ -13,11 +13,9 @@ const Main = ({ Monthly }) => {
           <p>2 Users Allowed</p>
           <p>Send up to 3 GB</p>
         </div>
-        <a className="hover:bg-white hover:bg-none hover:text-[#696fdd] bg-primary">
-          Learn More
-        </a>
+        <a className="hover:bg-white hover:bg-none hover:text-[#696fdd] bg-primary">Learn More</a>
       </section>
-      <section className=" scale-110 bg-primary">
+      <section className=" md:scale-110 bg-primary">
         <span className="text-white">Professional</span>
         <h1 className="text-white">
           <span>$</span>
@@ -26,13 +24,9 @@ const Main = ({ Monthly }) => {
         <div>
           <p className="text-white border-[#a3a8f0] border-t">1 TB Storage</p>
           <p className="text-white border-[#a3a8f0] border-t">5 Users Allowed</p>
-          <p className="text-white border-[#a3a8f0] border-t border-b">
-            Send up to 10 GB
-          </p>
+          <p className="text-white border-[#a3a8f0] border-t border-b">Send up to 10 GB</p>
         </div>
-        <a className="hover:bg-primary hover:text-white bg-white text-[#696fdd]">
-          Learn More
-        </a>
+        <a className="hover:bg-primary hover:text-white bg-white text-[#696fdd]">Learn More</a>
       </section>
       <section>
         <span>Master</span>
@@ -45,9 +39,7 @@ const Main = ({ Monthly }) => {
           <p>10 Users Allowed</p>
           <p>Send up to 20 GB</p>
         </div>
-        <a className="hover:bg-white hover:bg-none hover:text-[#696fdd] bg-primary">
-          Learn More
-        </a>
+        <a className="hover:bg-white hover:bg-none hover:text-[#696fdd] bg-primary">Learn More</a>
       </section>
     </article>
   );

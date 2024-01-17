@@ -1,8 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
+
 import { useState } from "react";
 import Main from "./Main";
 import Header from "./Header";
-import Main from "./Main";
 import top from "./images/bg-top.svg"
 import bottom from "./images/bg-bottom.svg"
 function App() {
@@ -13,7 +13,7 @@ function App() {
       <img className=" -z-10 absolute w-0 md:w-auto bottom-0 left-0 " src={bottom} alt="" />
       <Header setMonthly={setMonthly} Monthly={Monthly} />
       <Main Monthly={Monthly} />
-      <div class="w-[90%] text-[#a3a8f0] mt-5 mx-auto">
+      <div class="w-[90%] text-[#a3a8f0] text-center mt-5 mx-auto">
         Challenge by{" "}
         <a
           href="https://www.frontendmentor.io?ref=challenge"
