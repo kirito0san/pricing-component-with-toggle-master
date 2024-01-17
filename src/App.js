@@ -11,8 +11,8 @@ function App() {
     <div className="App bg-no-repeat min-h-[100vh] ">
       <img className=" -z-10 absolute -top-[50px] -right-[200px] md:right-0  " src={top} alt="" />
       <img className=" -z-10 absolute w-0 md:w-auto bottom-0 left-0 " src={bottom} alt="" />
-      <Main />
-      <Header />
+      <Header setMonthly={setMonthly} Monthly={Monthly} />
+      <Main Monthly={Monthly} />
       <div class="w-[90%] text-[#a3a8f0] mt-5 mx-auto">
         Challenge by{" "}
         <a
