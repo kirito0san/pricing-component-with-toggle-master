@@ -1,8 +1,11 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 
+import Main from "./main";
+
 function App() {
   return (
     <div className="App">
+      <Main />
       {/* 
       Our Pricing
       Annually
