@@ -1,14 +1,13 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-
 import { useState } from "react";
 import Main from "./Main";
-
+import Header from "./Header";
 function App() {
   const [Monthly, setMonthly] = useState(true);
   return (
     <div className="App">
+      <Header />
       <Main Monthly={Monthly} />
-
       <div class="attribution">
         Challenge by{" "}
         <a
