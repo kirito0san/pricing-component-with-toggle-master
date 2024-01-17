@@ -6,7 +6,7 @@ function App() {
   const [Monthly, setMonthly] = useState(true);
   return (
     <div className="App">
-      <Header />
+      <Header setMonthly={setMonthly} Monthly={Monthly} />
       <Main Monthly={Monthly} />
       <div class="attribution">
         Challenge by{" "}

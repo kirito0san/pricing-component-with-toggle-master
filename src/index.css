@@ -17,7 +17,7 @@ label:has(input:checked) {
 /* end header */
 /* body */
 article section {
-  @apply shadow-md rounded-md font-bold bg-white p-6 w-11/12 text-center md:w-[30%];
+  @apply shadow-md rounded-md font-bold bg-white p-6 w-11/12 text-center md:w-[30%] max-w-[300px];
 }
 article section > span {
   @apply text-[#6d708d];
